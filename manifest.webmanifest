@@ -1,0 +1,26 @@
+{
+  "name": "BloomBody｜對話式健康追蹤",
+  "short_name": "BloomBody",
+  "description": "離線對話打卡、飲食運動、試穿與圈子競賽",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f7f5",
+  "theme_color": "#5B8C7A",
+  "lang": "zh-HK",
+  "icons": [
+    {
+      "src": "./assets/BloomBody_icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/BloomBody_icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

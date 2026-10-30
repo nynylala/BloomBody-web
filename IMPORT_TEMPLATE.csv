@@ -1,0 +1,7 @@
+﻿﻿date,type,weight_kg,body_fat_pct,sleep_hours,sleep_time,wake_time,period_phase,ex_type,minutes,kcal,steps,mood_word,body_word,note
+2026-10-20,body,58.2,28.5,,,,,,,,,,,家用磅
+2026-10-20,sleep,,,7.5,23:30,07:00,,,,,,,,熟睡約七小時半
+2026-10-21,period,,,,,,period_start,,,,,,,經期開始
+2026-10-21,exercise,,,,,,,步行,40,180,8234,,,微信運動步數
+2026-10-21,checkin,,,,,,,,,,,,平穩,正常,今日狀態範例
+2026-10-22,checkin,,,,,,,,,,,,精神,有力,晨間打卡範例
