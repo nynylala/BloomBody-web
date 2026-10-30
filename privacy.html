@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#5B8C7A">
+<title>BloomBody 隱私政策</title>
+<style>
+  :root { --bg:#f6f3ee; --ink:#2d3a35; --muted:#6b7c74; --accent:#3d6b5a; --card:#fff; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: "PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.7; font-size:16px; }
+  .wrap { max-width:720px; margin:0 auto; padding:28px 20px 64px; }
+  h1 { font-size:1.55rem; color:var(--accent); margin:0 0 8px; }
+  h2 { font-size:1.1rem; color:var(--accent); margin:28px 0 10px; }
+  p, li { margin:0 0 10px; }
+  ul { padding-left:1.25em; margin:0 0 12px; }
+  .meta { color:var(--muted); font-size:0.92rem; margin-bottom:20px; }
+  .card { background:var(--card); border-radius:14px; padding:22px 20px; box-shadow:0 1px 4px rgba(45,58,53,.06); }
+  a { color:var(--accent); }
+  .foot { margin-top:28px; font-size:0.88rem; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h1>BloomBody 隱私政策</h1>
+    <p class="meta">生效日期：2026-10-30（Asia/Hong_Kong）<br>
+    適用範圍：BloomBody 微信小程序及相關網頁版（對話式健康自我追蹤工具）<br>
+    公開網址：<a href="https://nynylala.github.io/BloomBody-web/privacy.html">https://nynylala.github.io/BloomBody-web/privacy.html</a></p>
+
+    <h2>一、引言</h2>
+    <p>BloomBody（下稱「本服務」）為健康自我記錄與參考估算工具，協助使用者以對話方式記錄飲食、運動、睡眠、身體測量等資料。本政策說明我們如何收集、使用、儲存與保護您的個人資訊。使用本服務即表示您已閱讀並理解本政策。</p>
+    <p><strong>本服務不提供執業醫療診斷、處方或治療建議。</strong>所有熱量、營養、基礎代謝、消耗量及步數等數值僅供參考估算，不能替代合格醫療專業人員之意見。身體不適請就醫。</p>
+
+    <h2>二、我們收集的資料</h2>
+    <ul>
+      <li><strong>微信 openid</strong>：用於登入識別與帳號對應（由微信授權取得）。</li>
+      <li><strong>顯示名稱及其他帳號設定</strong>：您主動設定的暱稱、目標等個人化資料。</li>
+      <li><strong>健康打卡記錄</strong>：您主動輸入或匯入的飲食、運動、睡眠、身體測量、飲水、經期備註、心情／身體感受、筆記等。</li>
+      <li><strong>微信運動步數</strong>：僅在您明確授權（如 <code>scope.werun</code>）後，透過微信提供的介面取得。</li>
+      <li><strong>裝置本地快取</strong>：尚未同步至雲端或僅使用網頁版時，資料可能僅存於本機瀏覽器或小程序本地儲存。</li>
+      <li><strong>技術日誌</strong>：為除錯與安全，雲端環境可能產生存取時間、錯誤碼等非內容性日誌（以微信雲開發實際機制為準）。</li>
+    </ul>
+    <p>本服務<strong>不會</strong>直接讀取 Apple Health／HealthKit。若您從其他裝置匯出檔案後自行匯入，屬您主動提供之資料。</p>
+
+    <h2>三、資料用途</h2>
+    <ul>
+      <li>提供對話打卡、報告摘要、目標進度與參考估算（如 BMR／TDEE／巨量營養素等公式結果）。</li>
+      <li>在您標記為「公開」時，向您設定的搭檔／圈子展示公開動態。</li>
+      <li>依您的操作匯出備份（如 JSON／CSV）或清除本地資料。</li>
+      <li>維護服務穩定、防濫用與符合微信平台規範。</li>
+    </ul>
+    <p>我們不會將您的健康打卡內容用於執業醫療診斷，亦不會在未經您同意的情況下向無關第三方出售個人資料。</p>
+
+    <h2>四、可見範圍與分享</h2>
+    <ul>
+      <li><strong>私密記錄</strong>：僅您本人（及對應 openid／本機帳號）可查看。</li>
+      <li><strong>公開記錄</strong>：可由您加入的搭檔圈子經伺服器過濾後查看；全網展示（如有）可能對顯示名稱作匿名化處理。</li>
+      <li>營運者或微信雲開發管理員依平台權限可能存取後台資料；我們會盡合理努力收緊雲規則與最小權限。</li>
+    </ul>
+
+    <h2>五、儲存、保留與跨境</h2>
+    <p>資料可能儲存於：（1）您裝置上的小程序本地或網頁 localStorage；（2）您開通的微信雲開發環境（機房與跨境傳輸規則以騰訊／微信雲開發為準）。保留期間原則上為您持續使用服務期間；您可要求刪除或自行清除本地資料。刪除雲端資料須由營運者核實身分後處理。</p>
+
+    <h2>六、您的權利</h2>
+    <ul>
+      <li>查閱、匯出您的記錄（應用內匯出功能）。</li>
+      <li>更正顯示名稱與目標等設定。</li>
+      <li>關閉或撤回微信運動等授權（於微信系統設定中操作）。</li>
+      <li>清除本地資料、登出；要求刪除雲端帳號相關資料時，請聯絡營運者並提供可核實之 openid／顯示名稱。</li>
+    </ul>
+
+    <h2>七、第三方服務</h2>
+    <p>登入、微信運動、雲開發等由騰訊／微信提供，其處理受該等服務之隱私政策與用戶協議約束。網頁版託管於 GitHub Pages 時，瀏覽行為亦可能受 GitHub 相關政策影響；核心打卡資料預設存於您本機，除非您另行啟用雲端同步。</p>
+
+    <h2>八、未成年人</h2>
+    <p>本服務主要面向成年使用者。若您為未成年人，請在監護人同意與指導下使用，並避免提交不必要之敏感健康資訊。</p>
+
+    <h2>九、非醫療與免責摘要</h2>
+    <p>所有熱量、營養、步數、身體組成相關數值均為<strong>參考估算</strong>，可能因輸入誤差、公式假設或裝置差異而不準確。<strong>不構成醫生診斷、處方或治療建議</strong>，亦不保證任何減重、增肌或健康結果。</p>
+
+    <h2>十、政策更新與聯絡</h2>
+    <p>我們可能更新本政策；重大變更將盡量於應用內或本頁面提示。繼續使用視為知悉更新後版本。正式營運主體與聯絡方式將於取得微信小程序真實 AppID 並完成主體認證後於本頁補充。</p>
+    <p>使用者協議：<a href="https://nynylala.github.io/BloomBody-web/terms.html">https://nynylala.github.io/BloomBody-web/terms.html</a></p>
+
+    <p class="foot">本文件以書面語繁體中文撰寫，供中國內地、香港及境外讀者與微信公眾平台後台「用戶隱私保護指引」外鏈使用。本頁不等同於小程序已審核上架。</p>
+  </div>
+</div>
+</body>
+</html>

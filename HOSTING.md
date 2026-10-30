@@ -32,3 +32,11 @@
 原始碼（僅 SPA，無伺服器密鑰）：https://github.com/nynylala/BloomBody-web
 
 託管：GitHub Pages · 分支 `main` · 站點根目錄 `/`
+
+## 微信後台可用的法律頁（HTTPS）
+
+- 隱私政策：https://nynylala.github.io/BloomBody-web/privacy.html
+- 用戶協議：https://nynylala.github.io/BloomBody-web/terms.html
+
+將上述 URL 填入微信公眾平台 → 用戶隱私保護指引／相關外鏈欄位。此舉**不代表**小程序已上架。
+
